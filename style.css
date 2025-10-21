@@ -1,0 +1,14 @@
+body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .menu-enter {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+
+    .menu-enter-active {
+      transform: translateY(0);
+      opacity: 1;
+      transition: all 0.4s ease;
+    }
